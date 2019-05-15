@@ -23,14 +23,6 @@ Component({
       type: Number,
       value: 1
     },
-    activeColor: {
-      type: String,
-      value: '#3963bc'
-    },
-    color: {
-      type: String,
-      value: ''
-    },
     type: {
       type: String,
       value: 'number'
