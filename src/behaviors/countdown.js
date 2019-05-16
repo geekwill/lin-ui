@@ -46,6 +46,9 @@ module.exports = Behavior({
         hide() {
             clearInterval(this.data.timer);
         },
+        show() {
+            this.getLatestTime();
+        }
     },
 
     methods: {
